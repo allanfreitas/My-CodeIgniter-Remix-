@@ -2,6 +2,8 @@
 /**
  * check if haystack string begins with needle
  *
+ * @author Manuel Wildauer <m.wildauer@gmail.com>
+ * 
  * @param string $haystack the string to check
  * @param string $needle string it should begin with
  * @return bool true if begins with
@@ -20,6 +22,8 @@ if (!function_exists('beginsWith')){
 
 /** 
  * check if haystack string ends with needle
+ *
+ * @author Manuel Wildauer <m.wildauer@gmail.com>
  *
  * @param string $haystack the string to check
  * @param string $needle string it should end with
