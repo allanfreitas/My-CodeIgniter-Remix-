@@ -1,4 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
 /**
  * check if haystack string begins with needle
  *
@@ -53,6 +54,8 @@ if (!function_exists('endsWith')){
  * @return array
  * @assert ('aabbccd', 2) == array('aa', 'bb', 'cc', 'd')
  * @assert ('aabbccd', 3) == array('aab', 'bcc', 'd')
+ *
+ * @deprecated see: http://www.php.net/manual/en/function.str-split.php
  */
 if (!function_exists('splitToLength')){
 	function splitToLength($str, $len) {
